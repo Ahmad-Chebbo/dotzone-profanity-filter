@@ -2,9 +2,9 @@
 
 namespace AhmadChebbo\DotzoneProfanityFilter\Tests;
 
+use AhmadChebbo\DotzoneProfanityFilter\DotzoneProfanityFilterServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AhmadChebbo\DotzoneProfanityFilter\DotzoneProfanityFilterServiceProvider;
 
 class TestCase extends Orchestra
 {

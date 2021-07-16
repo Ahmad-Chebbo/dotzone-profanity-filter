@@ -2,9 +2,9 @@
 
 namespace AhmadChebbo\DotzoneProfanityFilter;
 
+use AhmadChebbo\DotzoneProfanityFilter\Commands\DotzoneProfanityFilterCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AhmadChebbo\DotzoneProfanityFilter\Commands\DotzoneProfanityFilterCommand;
 
 class DotzoneProfanityFilterServiceProvider extends PackageServiceProvider
 {
