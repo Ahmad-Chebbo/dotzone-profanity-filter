@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace AhmadChebbo\DotzoneProfanityFilter;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use AhmadChebbo\DotzoneProfanityFilter\Commands\DotzoneProfanityFilterCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class DotzoneProfanityFilterServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('dotzone-profanity-filter')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_dotzone-profanity-filter_table')
+            ->hasCommand(DotzoneProfanityFilterCommand::class);
     }
 }

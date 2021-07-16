@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AhmadChebbo\DotzoneProfanityFilter\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DotzoneProfanityFilterCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'dotzone-profanity-filter';
 
     public $description = 'My command';
 

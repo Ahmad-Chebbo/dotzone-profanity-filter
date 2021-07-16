@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace AhmadChebbo\DotzoneProfanityFilter\Tests;
 
 class ExampleTest extends TestCase
 {
